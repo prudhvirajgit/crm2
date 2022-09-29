@@ -1,23 +1,31 @@
-body {
-  background-color: rgb(255, 255, 255);
+.form_outer {
+  background-color: #f3f3f4;
+  padding: 10px;
+  padding-left: 20px;
 }
-.Form_outer {
-  padding: 40px;
+.form_outer label {
+  font-size: 11px;
+  color: rgb(90, 89, 89);
 }
-label {
-  color: rgb(55, 55, 55);
+.form_inner1 {
+  padding: 5px 0px;
+  padding-left: 10px;
 }
-.Form_inner1 {
-  padding: 10px 0px;
+.form_rectangle {
+  background-color: white;
+  height: 25px;
+  width: 180px;
+  box-shadow: 1px 1px 1px 1px #888888;
 }
-.Form_rectangle {
-  background-color: rgb(205, 199, 199);
-  height: 30px;
-  width: 250px;
-}
-.Form_inner3 {
-  padding: 25px 0px;
+.form_inner3 {
+  width: 750px;
+  padding: 15px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.form_rectangle1 {
+  background-color: #f3f3f4;
+  height: 30px;
+  width: 180px;
 }

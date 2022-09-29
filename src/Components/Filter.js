@@ -7,9 +7,9 @@ import "./Filter.css";
 export default function Admin() {
   return (
     <>
-      <div className="Filtrer_Filter">
+      <div className="Filter_Filter">
         <div className="Filter_left">
-          <div className=" Filtrt_header">
+          <div className=" Filter_header">
             <label>prospects</label>
             <RiArrowDropDownLine />
           </div>
@@ -23,11 +23,11 @@ export default function Admin() {
             <FaCircle className=" Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
+          <div className="Filter_list">
             <FaCircle className=" Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
+          <div className="Filter_list">
             <FaCircle className=" Filter_circleIcon" />
             <label>Campaign one</label>
           </div>

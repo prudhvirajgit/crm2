@@ -7,108 +7,108 @@ import "./Filter.css";
 export default function Admin() {
   return (
     <>
-      <div className="Filter">
-        <div className="left">
-          <div className="header">
+      <div className="Filtrer_Filter">
+        <div className="Filter_left">
+          <div className=" Filtrt_header">
             <label>prospects</label>
             <RiArrowDropDownLine />
           </div>
-          <div className="list">
-            <div className="tickCircle">
-              <TiTick className="tickIcon" />
+          <div className=" Filter_list">
+            <div className=" Filter_tickCircle">
+              <TiTick className=" Filter_tickIcon" />
             </div>
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className=" Filter_list">
+            <FaCircle className=" Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
           <div className="list">
-            <FaCircle className="circleIcon" />
+            <FaCircle className=" Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
           <div className="list">
-            <FaCircle className="circleIcon" />
+            <FaCircle className=" Filter_circleIcon" />
+            <label>Campaign one</label>
+          </div>
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
           <div className="list">
-            <FaCircle className="circleIcon" />
-            <label>Campaign one</label>
-          </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
         </div>
 
-        <div className="center">
-          <div className="header">
+        <div className="Filter_center">
+          <div className="Filter_header">
             <label>Interested</label>
             <RiArrowDropDownLine />
           </div>
-          <div className="list">
-            <div className="tickCircle">
-              <TiTick className="tickIcon" />
+          <div className="Filter_list">
+            <div className="Filter_tickCircle">
+              <TiTick className="Filter_tickIcon" />
             </div>
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
         </div>
 
-        <div className="right">
-          <div className="header">
+        <div className="Filter_right">
+          <div className="Filter_header">
             <label>NotInterested</label>
             <RiArrowDropDownLine />
           </div>
-          <div className="list">
-            <div className="tickCircle">
-              <TiTick className="tickIcon" />
+          <div className="Filter_list">
+            <div className="Filter_tickCircle">
+              <TiTick className="Filter_tickIcon" />
             </div>
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
-          <div className="list">
-            <FaCircle className="circleIcon" />
+          <div className="Filter_list">
+            <FaCircle className="Filter_circleIcon" />
             <label>Campaign one</label>
           </div>
         </div>
       </div>
       <div>
-        <div className="Filtertitle">
+        <div className="Filter_Filtertitle">
           <AiFillDelete />
           <label>Clear Filter</label>
         </div>

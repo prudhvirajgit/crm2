@@ -1,37 +1,37 @@
 body {
   margin: 0;
 }
-.Filter {
+.Filter_Filter {
   text-align: center;
 }
-.Filter {
+.Filter_Filter {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background: white;
 }
-.header {
+.Filter_header {
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   border: 1px solid gray;
 }
-.left {
+.Filter_left {
   width: 30%;
   background-color: white;
   text-align: center;
   border: 1px solid gray;
 }
-.list {
+.Filter_list {
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.list label {
+.Filter_list label {
   padding-left: 20px;
 }
-.tickCircle {
+.Filter_tickCircle {
   background-color: blueviolet;
   height: 25px;
   width: 25px;
@@ -40,25 +40,25 @@ body {
   justify-content: center;
   align-items: center;
 }
-.tickIcon {
+.Filter_tickIcon {
   color: white;
 }
-.circleIcon {
+.Filter_circleIcon {
   color: white;
   zoom: 2.5;
 }
-.center {
+.Filter_center {
   width: 30%;
   background-color: white;
   text-align: center;
   border: 1px solid gray;
 }
-.right {
+.Filter_right {
   width: 30%;
   background-color: white;
   text-align: center;
   border: 1px solid gray;
 }
-.Filtertitle {
+.Filter_Filtertitle {
   margin-top: 150px;
 }

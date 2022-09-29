@@ -1,21 +1,21 @@
 body {
   background-color: rgb(255, 255, 255);
 }
-.outer {
+.Form_outer {
   padding: 40px;
 }
 label {
   color: rgb(55, 55, 55);
 }
-.inner1 {
+.Form_inner1 {
   padding: 10px 0px;
 }
-.rectangle {
+.Form_rectangle {
   background-color: rgb(205, 199, 199);
   height: 30px;
   width: 250px;
 }
-.inner3 {
+.Form_inner3 {
   padding: 25px 0px;
   display: flex;
   flex-direction: row;
